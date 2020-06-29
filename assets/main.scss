@@ -4,6 +4,46 @@
 
 @import "minima";
 
+.site-header {
+    width: 100%;
+    text-align: right;
+    color: #616A57;
+    padding-right: 30px;
+    background-color: #909972;
+    background-image: url("imgs/site/bg.png");
+    background-size: cover;
+}
+.locales {
+    font-weight: bold;
+    background-color: #AEB69C; opacity: 0.3;
+}
+
+.site-nav {
+    width: 100%;
+    text-align: right;
+    background-color: #AEB69C; opacity: 0.5;
+    padding-right: 10px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px;
+}
+.page-link {
+     color: #4C5647;
+}
+
+.page-content {
+    color: #869186;
+    background-color: #F7F8EF;
+}
+
+.site-footer {
+    color: #869186;
+    background-color: #F7F8EF;
+}
+
+.footer-col-wrapper {
+    color: #000000;
+}
+
 .border {
   border: 2px black solid
 }
